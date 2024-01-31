@@ -4,7 +4,7 @@
 
 void limparbuffer(void) {
 
-  char c;
+  int c;
 
   while ((c = getchar()) != '\n' && c != EOF);
   if (c == EOF) {
